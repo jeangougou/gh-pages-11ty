@@ -15,8 +15,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '10.x'
-      - run: npm run get-new-data
-      - run: npm ci
+      # - run: npm run get-new-data
+      - run: npm install
 
       - run: npm run build
 

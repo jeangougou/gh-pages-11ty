@@ -1,0 +1,8 @@
+_site
+.sass-cache
+_todo
+.jekyll-metadata
+.DS_Store
+*.orig
+node_modules
+.secrets
